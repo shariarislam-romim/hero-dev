@@ -7,9 +7,16 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+header{
+    background-color: #FFF8F3;
+    background: url("../images/developer.png") , url("../images/header_bg.png") , #FFF8F3;
+    background-position: 23px 38px, bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
 .logo h2{
     font-size: 45px;
-    font-size: 900;
+    font-weight: 900;
 }
 .orange{
     color: #FD6E0A;
@@ -22,6 +29,7 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 nav ul{
     display: flex;
@@ -29,10 +37,7 @@ nav ul{
     gap: 51px;
     align-items: center;
 }
-header{
-    background-color: #FFF8F3;
-    padding: 50px;
-}
+
 nav{
     width: 71%;
     max-width: 1140; 
@@ -45,4 +50,35 @@ nav ul a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+#banner{
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content {
+    max-width: 585px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
